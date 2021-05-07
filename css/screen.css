@@ -1,5 +1,158 @@
+html {
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #fff;
+}
+
 body {
-  background-color: aqua;
+  margin: 0;
+  padding: 0;
+  background-color: #311E25;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.hamburger {
+  float: right;
+  margin: 15px;
+}
+
+.isl-logo {
+  margin: 15px 0 15px 0;
+}
+
+.header.container {
+  display: flex;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+}
+
+.l-main-menu {
+  background-color: black;
+  font-size: 12px;
+  padding-right: 120px;
+  margin-left: -15px;
+}
+
+.l-main-menu li {
+  display: block;
+}
+
+.l-main-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.l-main-menu ul ul {
+  display: none;
+}
+
+.l-main-menu a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 20px 25px;
+  font-size: 1rem;
+}
+
+.l-main-menu.is-show {
+  display: inline-block;
+}
+
+.hamburger i {
+  color: gray;
+  font-size: 1.2rem;
+}
+
+button.talk {
+  margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .l-main-menu li {
+    display: inline-block;
+  }
+
+  .l-main-menu {
+    display: block;
+    background-color: transparent;
+    padding-right: 0;
+  }
+
+  .l-main-menu a {
+    color: #DB9A64;
+    padding: 20px 15px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-top: 6px;
+  }
+
+  #menuHamburger {
+    display: none;
+  }
+
+  nav {
+    display: grid;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 992px) {
+  H1 {
+    font-size: 2em;
+  }
+
+  .l-main-menu li {
+    display: inline-block;
+  }
+
+  .l-main-menu {
+    display: block;
+  }
+
+  #menuHamburger {
+    display: none;
+  }
+
+  .menuPrincipal {
+    display: inline-block;
+  }
 }
 
 /*# sourceMappingURL=screen.css.map */

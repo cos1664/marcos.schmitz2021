@@ -1,0 +1,19 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: map-get($fonts , main );
+    font-size: 14px;
+    color: map-get($colors , txt );
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: map-get($colors , bg-color );
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}

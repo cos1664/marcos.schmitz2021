@@ -1,0 +1,127 @@
+.header.container {
+    display: flex;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.l-main-menu {
+    background-color: black;
+    font-size: 12px;
+    padding-right: 120px;
+    margin-left: -15px;
+    
+}
+
+.l-main-menu li {
+    display: block;
+}
+
+.l-main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;       
+}
+
+.l-main-menu ul ul {
+    display: none;   
+}
+
+
+.l-main-menu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 25px;
+    font-size: 1rem;   
+}
+
+.l-main-menu a:active {
+    color: map-get($colors , second);   
+}
+
+.l-main-menu a.encours {
+    color: map-get($colors , second);
+}
+
+.l-main-menu.is-show{
+    display: inline-block;
+}
+
+.hamburger i {
+    color: gray;
+    font-size: 1.2rem;
+}
+
+button.talk {
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+	h1 {
+		font-size: 2em;
+	}
+
+	.l-main-menu li {
+        display: inline-block;
+	}
+
+    .l-main-menu {
+        display: block;
+        background-color: transparent;
+        padding-right: 0;
+    }
+
+    .l-main-menu a {
+        color: map-get($colors , txt-fonce );
+        padding: 20px 15px;
+        font-weight: 600;
+        font-size: 0.8rem;
+        margin-top: 6px;
+    }
+
+    .l-main-menu a:hover {
+        color: map-get($colors , second );
+    }
+
+    #menuHamburger {
+        display: none;
+    }
+    nav {
+        display: grid;
+        justify-content: center;
+    }
+    }
+
+
+  @media screen and (min-width: 992px) {
+	H1 {
+		font-size: 2em;
+	}
+    .l-main-menu li {
+        display: inline-block;
+    }
+
+    .l-main-menu {
+        display: block;
+    }
+    #menuHamburger {
+        display: none;
+    }
+    
+    .menuPrincipal {
+        display: inline-block;
+    }
+    
+    
+    
+  }

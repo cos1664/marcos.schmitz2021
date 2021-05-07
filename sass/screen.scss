@@ -1,3 +1,24 @@
-body {
-    background-color: aqua;
-}
+// import reset css
+@import "base/reset";
+
+// fichier de base
+@import "base/variables";
+@import "base/base";
+
+// layout simple
+@import "layout/layout";
+
+// layout complex
+@import "layout/header";
+@import "layout/nav";
+@import "layout/footer";
+
+
+// modules
+@import "modules/home";
+@import "modules/about";
+@import "modules/works";
+@import "modules/blog";
+@import "modules/contact";
+@import "modules/services";
+
