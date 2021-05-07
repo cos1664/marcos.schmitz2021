@@ -50,10 +50,6 @@ body {
   margin: 15px 0 15px 0;
 }
 
-.header.container {
-  display: flex;
-}
-
 .menu {
   margin: 0;
   padding: 0;
@@ -114,6 +110,7 @@ button.talk {
     display: block;
     background-color: transparent;
     padding-right: 0;
+    text-align: center;
   }
 
   .l-main-menu a {
@@ -124,13 +121,40 @@ button.talk {
     margin-top: 6px;
   }
 
+  .l-main-menu a:hover {
+    color: #fff;
+  }
+
   #menuHamburger {
     display: none;
   }
 
-  nav {
-    display: grid;
+  header .container {
+    display: flex;
+  }
+
+  .flex1 {
+    max-width: 100px;
+  }
+
+  .flex2 {
+    max-width: 50px;
+  }
+
+  .flex3 {
     justify-content: center;
+  }
+
+  .flex4 {
+    max-width: 100px;
+  }
+
+  .container div {
+    flex: 1;
+  }
+
+  .talk {
+    float: right;
   }
 }
 @media screen and (min-width: 992px) {

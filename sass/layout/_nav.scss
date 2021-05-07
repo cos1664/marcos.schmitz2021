@@ -1,6 +1,4 @@
-.header.container {
-    display: flex;
-}
+
 
 .menu {
     margin: 0;
@@ -79,6 +77,7 @@ button.talk {
         display: block;
         background-color: transparent;
         padding-right: 0;
+        text-align: center;
     }
 
     .l-main-menu a {
@@ -90,15 +89,38 @@ button.talk {
     }
 
     .l-main-menu a:hover {
-        color: map-get($colors , second );
+        color: map-get($colors , txt );
     }
 
     #menuHamburger {
         display: none;
     }
-    nav {
-        display: grid;
+
+    header .container {
+        display: flex;
+    }
+
+    .flex1 {
+        max-width: 100px;
+    }
+
+    .flex2 {
+        max-width: 50px;
+    }
+
+    .flex3 {
         justify-content: center;
+    }
+
+    .flex4 {
+        max-width: 100px;
+    }
+
+    .container div {
+        flex: 1;
+    }
+    .talk {
+        float: right;
     }
     }
 
