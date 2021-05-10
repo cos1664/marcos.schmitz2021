@@ -17,3 +17,12 @@ body {
     margin: 0 auto;
     width: 90%;
 }
+
+button {
+    padding: 20px 50px;
+    margin: 2rem 0 2rem 0;
+    border: map-get($colors , txt-fonce ) 1px solid;
+    background-color: transparent;
+    color: map-get($colors , txt-fonce );
+    font-size: 1.2rem;
+}

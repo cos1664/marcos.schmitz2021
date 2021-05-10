@@ -1,0 +1,39 @@
+header {
+    background-image: url(../images/banner/banner.png);
+    padding-bottom: 5rem;
+}
+
+.home-view-work-img {
+    display: none;
+}
+
+.home-view-work-txt p {
+    font-size: 2.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-transform: capitalize;
+    line-height: 1.5em;
+    padding-top: 5rem;
+}
+
+.home-view-work-txt .second-ligne {
+    color: map-get($colors , txt-fonce );
+}
+
+.home-cv {
+    padding: 5rem 0;
+}
+
+h1 {
+    line-height: 1.5em;
+    font-size: 1.8rem;
+    padding-bottom: 3rem;
+}
+
+.home-cv-txt p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 100;
+    line-height: 2em;
+
+}
