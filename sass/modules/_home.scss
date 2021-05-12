@@ -1,32 +1,4 @@
-header {
-    background-image: url(../images/banner/banner.png);
-    padding-bottom: 5rem;
-}
 
-.jony-logo {
-    padding-top: 1rem;
-}
-
-.home-view-work-img {
-    display: none;
-}
-
-.home-view-work-txt {
-    float: left;
-}
-
-.home-view-work-txt p {
-    font-size: 2.5rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    text-transform: capitalize;
-    line-height: 1.5em;
-    padding-top: 5rem;
-}
-
-.home-view-work-txt .second-ligne {
-    color: map-get($colors , txt-fonce );
-}
 
 
 
@@ -37,10 +9,11 @@ header {
     padding: 5rem 0;
 }
 
-h1 {
+.home-view-work-txt h1 {
     line-height: 1.5em;
     font-size: 1.8rem;
     padding-bottom: 3rem;
+    text-align: left;
 }
 
 .home-cv-txt p {
@@ -203,6 +176,10 @@ blockquote p {
     padding-bottom: 3rem;
 }
 
+blockquote footer.home-clients-footer {
+    background-image: none;
+}
+
 .home-clients-auteur img {
     float: left;
     padding-right: 1rem;
@@ -220,7 +197,6 @@ blockquote p {
 /* Do you have any Project? */
 
 .home-letsTalk {
-    background-image: url(../images/banner/banner.png);
     padding-top: 5rem;
 }
 
@@ -273,23 +249,6 @@ blockquote p {
 
 
 
-/* footer */
-
-footer {
-    background-color: map-get($colors , second-bg-color );
-    padding: 3rem 0;
-}
-
-footer a {
-    color: map-get($colors , txt-fonce );
-    text-decoration: none;
-}
-
-.copyright {
-    color: gray;
-    text-align: center;
-    font-size: 12px;
-}
 
 
 
@@ -302,7 +261,7 @@ footer a {
         width: 90%;
     }
 
-    .home-view-work-txt p {
+    .home-view-work-txt h1 {
         font-size: 2.2rem;
     }
 
@@ -355,12 +314,9 @@ footer a {
         width: 70%;
     }
 
-    .home-view-work-txt p {
-        font-size: 3.6rem;
+    .home-view-work-txt h1 {
+        font-size: 3.3rem;
         padding-top: 10rem;
     }
 
-    h1 {
-        padding-right: 10rem;
-    }
 }

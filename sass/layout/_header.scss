@@ -1,0 +1,84 @@
+header {
+    background-image: url(../images/banner/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 5rem;
+}
+
+.jony-logo {
+    padding: 1rem 0 0 1rem;
+}
+
+.home-view-work-img {
+    display: none;
+}
+
+.home-view-work-txt {
+    float: left;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-transform: capitalize;
+    line-height: 1.5em;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.home-view-work-txt .second-ligne {
+    color: map-get($colors , txt-fonce );
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+
+    .home-view-work-img {
+        display: unset;
+        float: right;
+        padding-top: 3rem;
+    }
+
+
+
+    header {
+        padding-bottom: 0;
+    }
+
+
+}
+
+
+
+
+@media screen and (min-width: 992px) {
+
+    .container {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 4rem;
+        padding-top: 10rem 0;
+    }
+
+}

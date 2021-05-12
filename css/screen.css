@@ -39,6 +39,7 @@ body {
 .container {
   margin: 0 auto;
   width: 90%;
+  max-width: 1140px;
 }
 
 button {
@@ -59,6 +60,71 @@ button {
   margin: 15px 0 15px 0;
 }
 
+header {
+  background-image: url(../images/banner/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 5rem;
+}
+
+.jony-logo {
+  padding: 1rem 0 0 1rem;
+}
+
+.home-view-work-img {
+  display: none;
+}
+
+.home-view-work-txt {
+  float: left;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  text-transform: capitalize;
+  line-height: 1.5em;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.home-view-work-txt .second-ligne {
+  color: #DB9A64;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .home-view-work-img {
+    display: unset;
+    float: right;
+    padding-top: 3rem;
+  }
+
+  header {
+    padding-bottom: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  h1 {
+    font-size: 4rem;
+    padding-top: 10rem 0;
+  }
+}
 .menu {
   margin: 0;
   padding: 0;
@@ -119,7 +185,7 @@ button.talk {
   }
 
   h1 {
-    font-size: 2em;
+    font-size: 4em;
   }
 
   .jony-logo {
@@ -179,7 +245,7 @@ button.talk {
 }
 @media screen and (min-width: 992px) {
   H1 {
-    font-size: 2em;
+    font-size: 4em;
   }
 
   .l-main-menu li {
@@ -199,34 +265,25 @@ button.talk {
     display: inline-block;
   }
 }
-header {
+/* footer */
+footer {
   background-image: url(../images/banner/banner.png);
-  padding-bottom: 5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 3rem 0;
 }
 
-.jony-logo {
-  padding-top: 1rem;
-}
-
-.home-view-work-img {
-  display: none;
-}
-
-.home-view-work-txt {
-  float: left;
-}
-
-.home-view-work-txt p {
-  font-size: 2.5rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  text-transform: capitalize;
-  line-height: 1.5em;
-  padding-top: 5rem;
-}
-
-.home-view-work-txt .second-ligne {
+footer a {
   color: #DB9A64;
+  text-decoration: none;
+}
+
+.copyright {
+  color: gray;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 5rem;
 }
 
 /* cv + skills */
@@ -234,10 +291,11 @@ header {
   padding: 5rem 0;
 }
 
-h1 {
+.home-view-work-txt h1 {
   line-height: 1.5em;
   font-size: 1.8rem;
   padding-bottom: 3rem;
+  text-align: left;
 }
 
 .home-cv-txt p {
@@ -385,6 +443,10 @@ blockquote p {
   padding-bottom: 3rem;
 }
 
+blockquote footer.home-clients-footer {
+  background-image: none;
+}
+
 .home-clients-auteur img {
   float: left;
   padding-right: 1rem;
@@ -398,7 +460,6 @@ blockquote p {
 
 /* Do you have any Project? */
 .home-letsTalk {
-  background-image: url(../images/banner/banner.png);
   padding-top: 5rem;
 }
 
@@ -443,30 +504,13 @@ blockquote p {
   color: #DB9A64;
 }
 
-/* footer */
-footer {
-  background-color: #3B2930;
-  padding: 3rem 0;
-}
-
-footer a {
-  color: #DB9A64;
-  text-decoration: none;
-}
-
-.copyright {
-  color: gray;
-  text-align: center;
-  font-size: 12px;
-}
-
 @media screen and (min-width: 768px) {
   .container {
     margin: 0 auto;
     width: 90%;
   }
 
-  .home-view-work-txt p {
+  .home-view-work-txt h1 {
     font-size: 2.2rem;
   }
 
@@ -508,13 +552,9 @@ footer a {
     width: 70%;
   }
 
-  .home-view-work-txt p {
-    font-size: 3.6rem;
+  .home-view-work-txt h1 {
+    font-size: 3.3rem;
     padding-top: 10rem;
-  }
-
-  h1 {
-    padding-right: 10rem;
   }
 }
 

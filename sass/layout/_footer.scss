@@ -1,0 +1,21 @@
+/* footer */
+
+footer {
+    background-image: url(../images/banner/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 3rem 0;
+}
+
+footer a {
+    color: map-get($colors , txt-fonce );
+    text-decoration: none;
+}
+
+.copyright {
+    color: gray;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5rem;
+}
