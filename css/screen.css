@@ -42,9 +42,9 @@ body {
 }
 
 button {
-  padding: 20px 50px;
+  padding: 10px 30px;
   margin: 2rem 0 2rem 0;
-  border: #DB9A64 1px solid;
+  border: #DB9A64 2px solid;
   background-color: transparent;
   color: #DB9A64;
   font-size: 1.2rem;
@@ -65,10 +65,14 @@ button {
 }
 
 .l-main-menu {
-  background-color: black;
+  background-color: white;
+  display: none;
   font-size: 12px;
-  padding-right: 120px;
-  margin-left: -15px;
+  padding-right: 220px;
+  margin-left: -75px;
+  margin-top: 5rem;
+  position: absolute;
+  z-index: 1;
 }
 
 .l-main-menu li {
@@ -87,9 +91,9 @@ button {
 
 .l-main-menu a {
   text-decoration: none;
-  color: white;
+  color: black;
   display: block;
-  padding: 20px 25px;
+  padding: 20px 8px;
   font-size: 1rem;
 }
 
@@ -98,17 +102,28 @@ button {
 }
 
 .hamburger i {
-  color: gray;
-  font-size: 1.2rem;
+  color: white;
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
 }
 
 button.talk {
+  display: none;
   margin-left: auto;
 }
 
 @media screen and (min-width: 768px) {
+  .navigation {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
   h1 {
     font-size: 2em;
+  }
+
+  .jony-logo {
+    margin-top: 1.1rem;
   }
 
   .l-main-menu li {
@@ -120,6 +135,8 @@ button.talk {
     background-color: transparent;
     padding-right: 0;
     text-align: center;
+    margin-top: -3.5rem;
+    margin-left: 150px;
   }
 
   .l-main-menu a {
@@ -138,31 +155,25 @@ button.talk {
     display: none;
   }
 
-  header .container {
-    display: flex;
-  }
-
   .flex1 {
-    max-width: 100px;
+    max-width: 80px;
   }
 
   .flex2 {
-    max-width: 50px;
+    max-width: 40px;
   }
 
   .flex3 {
+    display: flex;
     justify-content: center;
   }
 
   .flex4 {
-    max-width: 100px;
+    max-width: 150px;
   }
 
-  .container div {
-    flex: 1;
-  }
-
-  .talk {
+  button.talk {
+    display: unset;
     float: right;
   }
 }
@@ -177,6 +188,7 @@ button.talk {
 
   .l-main-menu {
     display: block;
+    margin-left: 330px;
   }
 
   #menuHamburger {
@@ -192,12 +204,20 @@ header {
   padding-bottom: 5rem;
 }
 
+.jony-logo {
+  padding-top: 1rem;
+}
+
 .home-view-work-img {
   display: none;
 }
 
+.home-view-work-txt {
+  float: left;
+}
+
 .home-view-work-txt p {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   text-transform: capitalize;
@@ -405,11 +425,12 @@ blockquote p {
 }
 
 .home-letsTalk-socialMedia .media {
-  padding: 40px 50px;
+  padding: 20px 20px;
   margin-top: 1rem;
   border: #DB9A64 1px solid;
   background-color: transparent;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
+  line-height: 1;
 }
 
 .media a {
@@ -425,15 +446,76 @@ blockquote p {
 /* footer */
 footer {
   background-color: #3B2930;
-  color: gray;
-  text-align: center;
-  font-size: 16px;
   padding: 3rem 0;
 }
 
 footer a {
   color: #DB9A64;
   text-decoration: none;
+}
+
+.copyright {
+  color: gray;
+  text-align: center;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .home-view-work-txt p {
+    font-size: 2.2rem;
+  }
+
+  .home-view-work-img {
+    display: unset;
+    float: right;
+    padding-top: 3rem;
+  }
+
+  header {
+    padding-bottom: 0;
+  }
+
+  .home-cv-txt p {
+    padding-right: 3rem;
+  }
+
+  .home-service {
+    margin: 0.5rem;
+    padding: 1.7rem;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .work1 {
+    padding: 0 20px;
+  }
+
+  .home-letsTalk-socialMedia .media {
+    margin: 0.4rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .home-view-work-txt p {
+    font-size: 3.6rem;
+    padding-top: 10rem;
+  }
+
+  h1 {
+    padding-right: 10rem;
+  }
 }
 
 /*# sourceMappingURL=screen.css.map */

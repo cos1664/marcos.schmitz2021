@@ -16,39 +16,37 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="flex1">
-                <img class="jony-logo" alt="logo" src="images/logo.png" title="logo jony"> 
-            </div>  
-            <div class="flex2">                         
-                <a class="hamburger" id="menuHamburger" href="#">
-                    <i class="fas fa-bars"></i>
-                </a>      
-            </div>   
-            <div class="flex3">
-                <nav id="menuPrincipal" class="l-main-menu">
-                    <ul class="menu">                              
-                        <li><a class="encours" href="./index.html">Home</a></li>
-                        <li><a href="./works.html">Works</a></li>
-                        <li><a href="./services.html">Services</a></li>
-                        <li><a href="./about.html">About</a></li>
-                        <li><a href="./blog.html">Blog</a></li>
-                        <li><a href="./contact.html">Contact</a></li>                            
-                    </ul>
-                </nav>
-            </div> 
-            <div class="flex4">
-                <button class="talk">Let's Talk</button> 
-            </div>               
+        <div class="navigation">
+            <img class="flex1 jony-logo" alt="logo" src="images/logo.png" title="logo jony"> 
+            <a class="flex2 hamburger" id="menuHamburger" href="#">
+                <i class="fas fa-bars"></i>
+            </a>                  
+            <nav id="menuPrincipal" class="flex3 l-main-menu">
+                <ul class="menu">                              
+                    <li><a class="encours" href="./index.html">Home</a></li>
+                    <li><a href="./works.html">Works</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contact.html">Contact</a></li>                            
+                </ul>
+            </nav>           
+            <button class="flex4 talk">Let's Talk</button> 
         </div>
         <div class="home-view-work">
             <div class="container">
-                <div class="home-view-work-txt">
-                    <p>hi there, i am jony <br><span class="second-ligne">creative director</span></p>
-                    <button>View Works</button>
-                </div>
-                <div class="home-view-work-img">
-                    <img src="images/about/my_img.png" alt="image portrait" title="image portrait">
+                <div class="row">
+                    <div class="col-12 col-md-7 col-lg-7">
+                        <div class="home-view-work-txt">
+                            <p>hi there, i am jony <br><span class="second-ligne">creative director</span></p>
+                            <button>View Works</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-5">
+                        <div class="home-view-work-img">
+                            <img src="images/about/my_img.png" alt="image portrait" title="image portrait">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -160,33 +158,41 @@
         <div class="home-works">
             <div class="container">
                 <h2>My Works</h2>
-                <div class="wrapper">
-                    <div class="work1">
-                        <img src="images/gallery/1.png" alt="portfolio photo 1" title="smartphone">
-                        <div class="home-works-txt">
-                            <h3>Mobile App</h3>
-                            <p>Colorlib App Project</p>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="work1 premier">
+                            <img src="images/gallery/1.png" alt="portfolio photo 1" title="smartphone">
+                            <div class="home-works-txt">
+                                <h3>Mobile App</h3>
+                                <p>Colorlib App Project</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="work1">
-                        <img src="images/gallery/2.png" alt="portfolio photo 2" title="smartphone">
-                        <div class="home-works-txt">
-                            <h3>Mobile App</h3>
-                            <p>Colorlib App Project</p>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="work1 deuxieme">
+                            <img src="images/gallery/2.png" alt="portfolio photo 2" title="smartphone">
+                            <div class="home-works-txt">
+                                <h3>Mobile App</h3>
+                                <p>Colorlib App Project</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="work1">
-                        <img src="images/gallery/3.png" alt="portfolio photo 3" title="smartphone">
-                        <div class="home-works-txt">
-                            <h3>Mobile App</h3>
-                            <p>Colorlib App Project</p>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="work1 troisieme">
+                            <img src="images/gallery/3.png" alt="portfolio photo 3" title="smartphone">
+                            <div class="home-works-txt">
+                                <h3>Mobile App</h3>
+                                <p>Colorlib App Project</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="work1">
-                        <img src="images/gallery/4.png" alt="portfolio photo 4" title="smartphone">
-                        <div class="home-works-txt">
-                            <h3>Mobile App</h3>
-                            <p>Colorlib App Project</p>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="work1 quatrieme">
+                            <img src="images/gallery/4.png" alt="portfolio photo 4" title="smartphone">
+                            <div class="home-works-txt">
+                                <h3>Mobile App</h3>
+                                <p>Colorlib App Project</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -260,9 +266,9 @@
     </main>
     <footer>
         <div class="container">
-            <small>
+            <div class="copyright">
                 Copyright &copy;2021 All rights reserved | This template is made with <i class="far fa-heart"></i> by <a href="https://colorlib.com/">Colorlib</a> 
-            </small>
+            </div>
         </div>
     </footer>
     <!--script java script menu-->
