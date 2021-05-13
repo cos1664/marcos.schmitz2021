@@ -1,5 +1,53 @@
 /* footer */
 
+/* social media */
+
+/* Do you have any Project? */
+
+.footer-letsTalk {
+    padding-top: 5rem;
+}
+
+.footer-letsTalk-titre {
+    font-size: 1.9rem;
+    padding-bottom: 2rem;
+}
+
+.footer-letsTalk-titre span {
+    color: map-get($colors , txt-fonce );
+}
+
+.footer-letsTalk-txt p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 100;
+    line-height: 2em;
+    margin-bottom: 1rem;
+}
+
+.footer-letsTalk-socialMedia {
+    padding-top: 3rem;
+}
+
+.footer-letsTalk-socialMedia .media {
+    padding: 20px 20px;
+    margin: 0.3rem;
+    border: map-get($colors , txt-fonce ) 1px solid;
+    background-color: transparent;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.media a {
+    text-decoration: none;
+    color: white;
+}
+
+.media i {
+    float: right;
+    color: map-get($colors , txt-fonce );
+}
+
 footer {
     background-image: url(../images/banner/banner.png);
     background-repeat: no-repeat;

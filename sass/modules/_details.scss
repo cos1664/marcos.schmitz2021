@@ -1,0 +1,61 @@
+.details-header h2 {
+    text-align: center;
+    padding: 7rem 0 15rem 0;
+    font-size: 2.3rem;
+    margin-bottom: 6rem;
+}
+
+.details-image .container {
+    max-width: 90%;
+}
+
+.details-image img {
+    margin-top: -26rem;
+}
+
+.details-txt {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.details-txt p {
+    margin-bottom: 2rem;
+    line-height: 2rem;
+    color: gray;
+}
+
+.details-txt button {
+    width: 100%;
+    margin-bottom: 9rem;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .details-header h2 {
+        padding: 7rem 0 25rem 0;
+    }
+
+    .details-image .container {
+        max-width: 70%;
+    }
+
+    .details-txt {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .details-image .container {
+        max-width: 50%;
+    }
+
+    .details-txt {
+        width: 30%;
+        margin: 0 auto;
+    }
+}
