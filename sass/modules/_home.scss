@@ -80,35 +80,47 @@ span.skills-pourcent {
 
 /* my services */
 
-.home-services {
+.services {
     background-color: map-get($colors , second-bg-color);
     padding: 8rem 0;
 }
 
-.home-services h2 {
+.services h2 {
     font-size: 1.9rem;
     padding-bottom: 2rem;
 }
 
-.home-service {
+.service {
     text-align: center;
     padding: 3rem;
     border: map-get($colors , txt-fonce ) 1px solid;
     margin-top: 2rem;
 }
 
-.home-service i {
+.service.webdesign {
+    margin-right: 1rem;
+}
+
+.service.webdevelopment {
+    margin: 2rem 0.5rem 0 0.5rem;
+}
+
+.service.ecommerce {
+    margin-left: 1rem;
+}
+
+.service i {
     font-size: 3rem;
     padding-bottom: 1.5rem;
 }
 
-.home-service h3 {
+.service h3 {
     font-size: 1.3rem;
     color: map-get($colors , txt-fonce);
     padding-bottom: 1.2rem;
 }
 
-.home-service p {
+.service p {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     line-height: 1.5rem;
@@ -156,12 +168,12 @@ span.skills-pourcent {
 
 /* what clients say */
 
-.home-clients {
+.clients {
     background-color: map-get($colors , second-bg-color);
     padding: 5rem 0;
 }
 
-.home-clients h2 {
+.clients h2 {
     font-size: 1.9rem;
     padding-bottom: 2rem;
 }
@@ -176,16 +188,16 @@ blockquote p {
     padding-bottom: 3rem;
 }
 
-blockquote footer.home-clients-footer {
+blockquote footer.clients-footer {
     background-image: none;
 }
 
-.home-clients-auteur img {
+.clients-auteur img {
     float: left;
     padding-right: 1rem;
 }
 
-.home-clients-auteur h3 {
+.clients-auteur h3 {
     color: map-get($colors , txt-fonce );
     font-size: 1.8rem;
     padding: 0.4rem 0;
