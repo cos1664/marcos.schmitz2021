@@ -45,7 +45,7 @@ body {
 
 h3 {
   font-size: 1.5rem;
-  padding: 3rem 0 1rem 0;
+  padding: 2rem 0 1rem 0;
 }
 
 .container {
@@ -421,18 +421,6 @@ span.skills-pourcent {
   margin-top: 2rem;
 }
 
-.service.webdesign {
-  margin-right: 1rem;
-}
-
-.service.webdevelopment {
-  margin: 2rem 0.5rem 0 0.5rem;
-}
-
-.service.ecommerce {
-  margin-left: 1rem;
-}
-
 .service i {
   font-size: 3rem;
   padding-bottom: 1.5rem;
@@ -551,6 +539,15 @@ blockquote footer.clients-footer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+  .service.webdesign {
+    margin-right: 1rem;
+  }
+  .service.webdevelopment {
+    margin: 2rem 0.5rem 0 0.5rem;
+  }
+  .service.ecommerce {
+    margin-left: 1rem;
+  }
   .work1 {
     padding: 0 20px;
   }
@@ -649,5 +646,26 @@ h2 {
   .services-project-txt.mockup {
     padding-right: 4rem;
   }
+}
+
+.works-header {
+  text-align: center;
+}
+
+button.view-works {
+  margin-bottom: 10rem;
+}
+
+main {
+  background-color: white;
+  color: black;
+}
+
+.blog-recentPost a {
+  color: black;
+}
+
+.blog-tag a {
+  color: gray;
 }
 /*# sourceMappingURL=screen.css.map */
