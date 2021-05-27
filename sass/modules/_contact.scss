@@ -1,0 +1,100 @@
+.map {
+    padding: 8rem 0 8rem 0;
+    background-color: white;
+}
+
+.contact-coordonnees {
+background-color: white;    
+padding-bottom: 8rem;
+color: black;
+}
+
+.contact-coordonnees .lnr {
+    font-size: 2rem;
+    color: map-get($colors , second );
+}
+
+.contact-coordonnees p {
+    font-size: 1.2rem;
+}
+
+.contact-coordonnees .espace {
+    height: 2rem;
+}
+
+.contact-formulaire1 {
+    padding-top: 2rem;
+}
+
+.contact-formulaire1 input {
+    padding: 1rem;
+    margin: 0rem 0 1rem 0;
+}
+
+.contact-formulaire1 textarea {
+    width: 100%;
+    height: 171px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    font-family: map-get($fonts , main );
+    font-size: 0.75rem;
+}
+
+.contact-formulaire1-name {
+    width: 49%;
+
+}
+
+.contact-formulaire1-email {
+    width: 49%;
+    float: right;
+}
+
+.contact-formulaire1-subject {
+    width: 100%;
+}
+
+.contact-formulaire2 input {
+    background-color: map-get($colors , second );
+    color: white;
+    margin-top: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
+    float: right;
+    border: none;
+}
+
+.contact-formulaire1-submit {
+    padding: 10px 30px;
+    margin: 2rem 0 2rem 0;
+    border: map-get($colors , txt-fonce ) 2px solid;
+    background-color: transparent;
+    color: map-get($colors , txt-fonce );
+    font-size: 1.2rem;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+
+    .map {
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+    
+    .contact-formulaire1 {
+        padding-top: 0;
+        width: 95%;
+    }
+
+    .contact-formulaire2 textarea {
+        margin-top: 0;
+    }
+    
+}
+
+
+@media screen and (min-width: 992px) {
+
+}

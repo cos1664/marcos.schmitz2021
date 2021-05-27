@@ -1,6 +1,33 @@
-main {
-    background-color: white;
-    color: black;
+.blog-main {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-top: 5rem;
+}
+
+
+
+.position-img {
+    position: relative;
+    
+
+}
+
+
+.position-img-time {
+    color: rgb(255, 255, 255);
+    background-color: crimson;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    margin-left: 2rem;
+    margin-top: -4rem;
+    position: absolute;
+    z-index: 5;
+}
+
+time .date {
+    margin-top: 1rem;
+    font-size: 2rem;
 }
 
 .blog-recentPost a {
@@ -9,4 +36,171 @@ main {
 
 .blog-tag a {
     color: gray;
+} 
+
+article.post {
+    padding-bottom: 2rem;
+}
+
+.post h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.post p {
+    margin-bottom: 2rem;
+    line-height: 2rem;
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.article-infos {
+    color: gray;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.article-infos .fas {
+    margin-right: 1rem;
+}
+
+.blog-post-txt {
+    padding: 3rem 1rem 2rem 2rem;
+    box-shadow: 0px 7px 7px 1px rgba(175, 175, 175, 0.25);
+
+}
+
+.blog-articles-pagination {
+    color: black;
+    text-align: center;
+    padding: 5rem 0 8rem 0;
+}
+
+.blog-articles-pagination a {
+    padding: 1rem;
+    color: black;
+    border: 1px solid  rgb(199, 199, 199);
+}
+
+.blog-search {
+    background-color: map-get($colors , blog-bg-color );
+    padding-top: 2rem;
+}
+
+.blog-search button {
+    width: 100%;
+}
+
+.blog-search form {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.blog-bandeau input {
+    padding: 0 1rem 0 1rem;
+    width: 100%;
+    height: 3rem;
+}
+
+.title h2 {
+    padding-bottom: 1rem;
+}
+
+.title {
+    margin-bottom: 3rem;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.blog-category {
+    background-color: map-get($colors , blog-bg-color );
+    padding: 1rem 1rem 2rem 1rem;
+    margin-top: 2rem;
+    color: gray;
+}
+
+.blog-category td {
+    padding: 1rem 0 1rem 0;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.blog-category table {
+    width: 100%;
+}
+
+
+.blog-recentPost {
+    background-color: map-get($colors , blog-bg-color );
+    padding: 1rem 1rem 2rem 1rem;
+    margin-top: 2rem;
+}
+
+.blog-recentPost-date {
+    color: gray;
+    margin-top: 0.7rem;
+}
+
+.blog-recentPost a {
+    margin-top: 1rem;
+}
+
+.blog-tag {
+    background-color: map-get($colors , blog-bg-color );
+    padding: 1rem 1rem 2rem 1rem;
+    margin-top: 2rem;
+}
+
+.blog-tag span {
+    line-height: 3rem;
+}
+
+.blog-tag a {
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+    color: gray;
+    border: 1px solid rgb(207, 207, 207);
+    background-color: white;
+}
+
+.blog-instagram {
+    background-color: map-get($colors , blog-bg-color );
+    padding: 1rem 1rem 2rem 1rem;
+    margin-top: 2rem;
+}
+
+.blog-instagram-flex-line1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.blog-newsletter {
+    background-color: map-get($colors , blog-bg-color );
+    padding: 1rem 1rem 2rem 1rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.blog-newsletter input {
+    width: 100%;
+    height: 3rem;
+}
+
+.blog-newsletter button {
+    width: 100%;
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .blog-articles {
+        margin-right: 2rem;
+    }    
 }

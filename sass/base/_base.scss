@@ -32,3 +32,12 @@ button {
     color: map-get($colors , txt-fonce );
     font-size: 1.2rem;
 }
+
+.bouton {
+    padding: 10px 30px;
+    margin: 2rem 0 2rem 0;
+    border: map-get($colors , txt-fonce ) 2px solid;
+    background-color: transparent;
+    color: map-get($colors , txt-fonce );
+    font-size: 1.2rem;
+}

@@ -1,0 +1,133 @@
+.blog-post-txt aside {
+    background-color: map-get($colors , blog-bg-color );
+    padding: 1rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+.blog-post-txt aside p { 
+    background-color: white;
+    margin-bottom: 0;
+}
+
+
+.blog-likePost {
+    margin-top: 2rem;
+    border-top: 1px solid rgb(207, 207, 207);
+}
+
+.blog-likePost .fab, .fas{
+    padding: 1rem;
+}
+
+.blog-likePost span {
+    float: right;
+}
+
+.blog-nextPost {
+    margin-bottom: 2rem;
+}
+
+.blog-nextPost a{
+    color: black;
+}
+
+.blog-nextPost-next {
+    text-align: right;
+}
+
+.blog-nextPost h3 {
+    font-size: 1.4rem;
+    padding: 0 0 0 1rem;
+}
+
+.blog-nextPost p {
+    padding: 0 0 0 1rem;
+    color: map-get($colors , txt-second );
+}
+
+.blog-nextPost-next h3 {
+    font-size: 1.4rem;
+    padding: 0 1rem 0 0;
+}
+
+.blog-nextPost-next p {
+    padding: 0 1rem 0 0;
+    color: map-get($colors , txt-second );
+}
+
+.blog-author {
+    border-top: 1px solid rgb(207, 207, 207);
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+}
+
+.blog-author-encart {
+    background-color: map-get($colors , blog-bg-color );
+}
+
+.blog-author-encart img {
+    padding: 1rem;
+}
+
+.blog-author-encart p {
+    color: map-get($colors , txt-second );
+}
+
+p.blog-author-name {
+    font-size: 1.3rem;
+    padding-top: 1.3rem;
+    color: black;
+}
+
+.blog-comments {
+    margin-right: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgb(207, 207, 207);
+    padding-bottom: 3rem;
+}
+
+.blog-comments-title {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.blog-commentaire-infos-comment {
+    color: map-get($colors , txt-second );
+}
+
+.blog-commentaire-infos-comment-commentaire-secondLine {
+    margin-top: 1rem;
+}
+
+.blog-commentaire-infos-comment-nom {
+    font-size: 1.2rem;
+}
+
+.blog-commentaire-infos-comment a {
+    color: map-get($colors , txt-second );
+}
+
+.blog-commentaire {
+    margin-bottom: 3rem;
+}
+
+.blog-reply {
+    margin-right: 2rem;
+    margin-bottom: 10rem; 
+    padding-top: 2rem;
+    border-top: 1px solid rgb(207, 207, 207);
+}
+
+.blog-reply-title {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.blog-formulaire {
+    width: 100%;
+}
