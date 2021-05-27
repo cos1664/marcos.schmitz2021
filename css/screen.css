@@ -182,6 +182,14 @@ h1 {
   font-size: 1rem;
 }
 
+.l-main-menu a:active {
+  color: white;
+}
+
+.l-main-menu a.encours {
+  color: white;
+}
+
 .l-main-menu.is-show {
   display: inline-block;
 }
@@ -192,7 +200,7 @@ h1 {
   padding-top: 0.5rem;
 }
 
-button.talk {
+.talk {
   display: none;
   margin-left: auto;
 }
@@ -1025,7 +1033,6 @@ article.post {
   border-top: 1px solid #cfcfcf;
   padding-top: 3rem;
   margin-bottom: 3rem;
-  margin-right: 2rem;
 }
 
 .blog-author-encart {
@@ -1038,6 +1045,7 @@ article.post {
 
 .blog-author-encart p {
   color: #707070;
+  margin-bottom: 1rem;
 }
 
 p.blog-author-name {
@@ -1047,7 +1055,6 @@ p.blog-author-name {
 }
 
 .blog-comments {
-  margin-right: 2rem;
   padding-top: 2rem;
   border-top: 1px solid #cfcfcf;
   padding-bottom: 3rem;
@@ -1079,7 +1086,6 @@ p.blog-author-name {
 }
 
 .blog-reply {
-  margin-right: 2rem;
   margin-bottom: 10rem;
   padding-top: 2rem;
   border-top: 1px solid #cfcfcf;
@@ -1092,6 +1098,20 @@ p.blog-author-name {
 
 .blog-formulaire {
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-author {
+    margin-right: 2rem;
+  }
+
+  .blog-reply {
+    margin-right: 2rem;
+  }
+
+  .blog-comments {
+    margin-right: 2rem;
+  }
 }
 
 /*# sourceMappingURL=screen.css.map */

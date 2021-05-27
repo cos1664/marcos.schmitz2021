@@ -63,7 +63,6 @@
     border-top: 1px solid rgb(207, 207, 207);
     padding-top: 3rem;
     margin-bottom: 3rem;
-    margin-right: 2rem;
 }
 
 .blog-author-encart {
@@ -76,6 +75,7 @@
 
 .blog-author-encart p {
     color: map-get($colors , txt-second );
+    margin-bottom: 1rem;
 }
 
 p.blog-author-name {
@@ -85,7 +85,6 @@ p.blog-author-name {
 }
 
 .blog-comments {
-    margin-right: 2rem;
     padding-top: 2rem;
     border-top: 1px solid rgb(207, 207, 207);
     padding-bottom: 3rem;
@@ -117,7 +116,6 @@ p.blog-author-name {
 }
 
 .blog-reply {
-    margin-right: 2rem;
     margin-bottom: 10rem; 
     padding-top: 2rem;
     border-top: 1px solid rgb(207, 207, 207);
@@ -130,4 +128,19 @@ p.blog-author-name {
 
 .blog-formulaire {
     width: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .blog-author {
+        margin-right: 2rem;
+    }   
+    
+    .blog-reply {
+        margin-right: 2rem;
+    }
+
+    .blog-comments {
+        margin-right: 2rem;
+    }
 }

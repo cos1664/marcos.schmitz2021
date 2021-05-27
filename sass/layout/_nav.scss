@@ -41,11 +41,11 @@
 }
 
 .l-main-menu a:active {
-    color: map-get($colors , second);   
+    color: white;   
 }
 
 .l-main-menu a.encours {
-    color: map-get($colors , second);
+    color: white;
 }
 
 .l-main-menu.is-show{
@@ -58,7 +58,7 @@
     padding-top: 0.5rem;
 }
 
-button.talk {
+.talk {
     display: none;
     margin-left: auto;
 }
